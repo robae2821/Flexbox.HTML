@@ -1,0 +1,86 @@
+*{
+    background-color: gray;
+}
+h1{
+   text-align: center;
+
+}
+
+.flexbox-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: space-around;
+
+}
+.flexbox-item{
+    height: 250px;
+    width: 320px;
+    border:double black 6px;
+
+}
+
+.flexone{
+    flex-shrink: 0;
+}
+.flextwo {
+    flex-grow: 2;
+}
+.flexthree {
+    flex-shrink: 0;
+
+}
+.containertwo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.flexfour{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.flexfive{
+    border:double black 5px;
+    flex-grow:2;
+    flex-shrink:1;
+}
+.flexsix{
+    border:double black 5px;
+    flex-grow:2;
+    flex-shrink:1;
+}
+img{
+    min-width: 100%;
+    min-height: 100%;
+    height: 250px;
+    width: 320px;
+}
+.containerthree{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+.flexseven{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.flexeighte{
+    border:double black 5px;
+    flex-grow:2;
+    flex-shrink:1;
+}
+.flexnine{
+    border:double black 5px;
+    flex-grow:2;
+    flex-shrink:1;
+}
+iframe{
+    min-width: 100%;
+    min-height: 100%;
+    height: 250px;
+    width: 320px;
+}
